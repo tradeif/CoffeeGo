@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "bs-1",
+    "name": "Farm House Pizza",
+    "category": "PIZZA",
+    "file": "farm_house_pizza.jpg",
+    "bytes": 683750,
+    "width": 750,
+    "height": 1125,
+    "aspect": "0.67"
+  },
+  {
+    "id": "bs-2",
+    "name": "Nutella Cold Coffee",
+    "category": "COFFEE",
+    "file": "nutella_cold_coffee.jpg",
+    "bytes": 1575983,
+    "width": 3310,
+    "height": 2825,
+    "aspect": "1.17"
+  },
+  {
+    "id": "bs-3",
+    "name": "Special TOT Burger",
+    "category": "BURGER",
+    "file": "special_tot_burger.jpg",
+    "bytes": 531772,
+    "width": 960,
+    "height": 1200,
+    "aspect": "0.80"
+  },
+  {
+    "id": "bs-4",
+    "name": "Tandoori Gravy Momos",
+    "category": "SNACKS",
+    "file": "tandoori_gravy_momos.jpg",
+    "bytes": 122613,
+    "width": 654,
+    "height": 980,
+    "aspect": "0.67"
+  },
+  {
+    "id": "cc-1",
+    "name": "Brownie Cold Coffee",
+    "category": "COFFEE",
+    "file": "brownie_cold_coffee.jpg",
+    "bytes": 228851,
+    "width": 2000,
+    "height": 1333,
+    "aspect": "1.50"
+  },
+  {
+    "id": "cc-2",
+    "name": "Hazelnut Cold Coffee",
+    "category": "COFFEE",
+    "file": "hazelnut_cold_coffee.jpg",
+    "bytes": 77300,
+    "width": 720,
+    "height": 720,
+    "aspect": "1.00"
+  },
+  {
+    "id": "cc-3",
+    "name": "Caramel Cold Coffee",
+    "category": "COFFEE",
+    "file": "caramel_cold_coffee.jpg",
+    "bytes": 102215,
+    "width": 1408,
+    "height": 768,
+    "aspect": "1.83"
+  },
+  {
+    "id": "cc-ch",
+    "name": "Chocolate Cold Coffee",
+    "category": "COFFEE",
+    "file": "chocolate_cold_coffee.jpg",
+    "bytes": 203846,
+    "width": 1709,
+    "height": 2560,
+    "aspect": "0.67"
+  },
+  {
+    "id": "cc-4",
+    "name": "Cold Coffee with Choco Chips",
+    "category": "COFFEE",
+    "file": "choco_chips_cold_coffee.jpg",
+    "bytes": 27748,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "cc-5",
+    "name": "Regular Cold Coffee",
+    "category": "COFFEE",
+    "file": "regular_cold_coffee.jpg",
+    "bytes": 55163,
+    "width": 638,
+    "height": 479,
+    "aspect": "1.33"
+  },
+  {
+    "id": "hc-1",
+    "name": "Hot Chocolate",
+    "category": "COFFEE",
+    "file": "hot_chocolate.jpg",
+    "bytes": 75555,
+    "width": 1280,
+    "height": 720,
+    "aspect": "1.78"
+  },
+  {
+    "id": "hc-2",
+    "name": "Hazelnut Hot Coffee",
+    "category": "COFFEE",
+    "file": "hazelnut_hot_coffee.jpg",
+    "bytes": 427308,
+    "width": 1820,
+    "height": 1214,
+    "aspect": "1.50"
+  },
+  {
+    "id": "hc-3",
+    "name": "Vanilla Hot Coffee",
+    "category": "COFFEE",
+    "file": "vanilla_hot_coffee.jpg",
+    "bytes": 231026,
+    "width": 1200,
+    "height": 800,
+    "aspect": "1.50"
+  },
+  {
+    "id": "hc-4",
+    "name": "Regular Hot Coffee",
+    "category": "COFFEE",
+    "file": "regular_hot_coffee.jpg",
+    "bytes": 34770,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "bev-1",
+    "name": "Cranberry Mojito",
+    "category": "BEVERAGES",
+    "file": "cranberry_mojito.jpg",
+    "bytes": 134056,
+    "width": 1500,
+    "height": 1125,
+    "aspect": "1.33"
+  },
+  {
+    "id": "bev-2",
+    "name": "Blueberry Mojito",
+    "category": "BEVERAGES",
+    "file": "blueberry_mojito.jpg",
+    "bytes": 732769,
+    "width": 1500,
+    "height": 843,
+    "aspect": "1.78"
+  },
+  {
+    "id": "bev-3",
+    "name": "Strawberry Mojito",
+    "category": "BEVERAGES",
+    "file": "strawberry_mojito.jpg",
+    "bytes": 181411,
+    "width": 1500,
+    "height": 2000,
+    "aspect": "0.75"
+  },
+  {
+    "id": "bev-om",
+    "name": "Orange Mojito",
+    "category": "BEVERAGES",
+    "file": "orange_mojito.jpg",
+    "bytes": 1329834,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "bev-4",
+    "name": "Watermelon Mojito",
+    "category": "BEVERAGES",
+    "file": "watermelon_mojito.jpg",
+    "bytes": 643064,
+    "width": 2880,
+    "height": 1800,
+    "aspect": "1.60"
+  },
+  {
+    "id": "bev-5",
+    "name": "Virgin Mojito",
+    "category": "BEVERAGES",
+    "file": "virgin_mojito.jpg",
+    "bytes": 82780,
+    "width": 1300,
+    "height": 1100,
+    "aspect": "1.18"
+  },
+  {
+    "id": "bev-6",
+    "name": "Blue Lagoon Mocktail",
+    "category": "BEVERAGES",
+    "file": "blue_lagoon_mocktail.jpg",
+    "bytes": 129820,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "bev-7",
+    "name": "Peach Mocktail",
+    "category": "BEVERAGES",
+    "file": "peach_mocktail.jpg",
+    "bytes": 350164,
+    "width": 512,
+    "height": 512,
+    "aspect": "1.00"
+  },
+  {
+    "id": "bev-cm",
+    "name": "Cranberry Mocktail",
+    "category": "BEVERAGES",
+    "file": "cranberry_mocktail.jpg",
+    "bytes": 134056,
+    "width": 1500,
+    "height": 1125,
+    "aspect": "1.33"
+  },
+  {
+    "id": "bev-bm",
+    "name": "Blueberry Mocktail",
+    "category": "BEVERAGES",
+    "file": "blueberry_mocktail.jpg",
+    "bytes": 412876,
+    "width": 960,
+    "height": 1200,
+    "aspect": "0.80"
+  },
+  {
+    "id": "bev-sm",
+    "name": "Strawberry Mocktail",
+    "category": "BEVERAGES",
+    "file": "strawberry_mocktail.jpg",
+    "bytes": 1063730,
+    "width": 2048,
+    "height": 2048,
+    "aspect": "1.00"
+  },
+  {
+    "id": "bev-oit",
+    "name": "Orange Ice Tea",
+    "category": "BEVERAGES",
+    "file": "orange_ice_tea.jpg",
+    "bytes": 1329834,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "bev-9",
+    "name": "Blueberry Ice Tea",
+    "category": "BEVERAGES",
+    "file": "blueberry_ice_tea.jpg",
+    "bytes": 224767,
+    "width": 1280,
+    "height": 1129,
+    "aspect": "1.13"
+  },
+  {
+    "id": "bev-sit",
+    "name": "Strawberry Ice Tea",
+    "category": "BEVERAGES",
+    "file": "strawberry_ice_tea.jpg",
+    "bytes": 1063730,
+    "width": 2048,
+    "height": 2048,
+    "aspect": "1.00"
+  },
+  {
+    "id": "bev-pit",
+    "name": "Peach Ice Tea",
+    "category": "BEVERAGES",
+    "file": "peach_ice_tea.jpg",
+    "bytes": 84796,
+    "width": 940,
+    "height": 1200,
+    "aspect": "0.78"
+  },
+  {
+    "id": "bev-8",
+    "name": "Lemon Ice Tea",
+    "category": "BEVERAGES",
+    "file": "lemon_ice_tea.jpg",
+    "bytes": 2919736,
+    "width": 3394,
+    "height": 4412,
+    "aspect": "0.77"
+  },
+  {
+    "id": "sp-1",
+    "name": "Hot N Sour Veg Soup",
+    "category": "BEVERAGES",
+    "file": "hot_sour_soup.jpg",
+    "bytes": 27412,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sp-2",
+    "name": "Sweet Corn Soup",
+    "category": "BEVERAGES",
+    "file": "sweet_corn_soup.jpg",
+    "bytes": 16459,
+    "width": 680,
+    "height": 678,
+    "aspect": "1.00"
+  },
+  {
+    "id": "sp-3",
+    "name": "Tomato Soup",
+    "category": "BEVERAGES",
+    "file": "tomato_soup.jpg",
+    "bytes": 16894,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "pz-1",
+    "name": "Peppy Paneer Pizza",
+    "category": "PIZZA",
+    "file": "peppy_paneer_pizza.jpg",
+    "bytes": 150291,
+    "width": 1280,
+    "height": 720,
+    "aspect": "1.78"
+  },
+  {
+    "id": "pz-2",
+    "name": "Peri Peri Paneer Pizza",
+    "category": "PIZZA",
+    "file": "peri_peri_paneer_pizza.jpg",
+    "bytes": 140280,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "pz-3",
+    "name": "Double Cheese Pizza",
+    "category": "PIZZA",
+    "file": "double_cheese_pizza.jpg",
+    "bytes": 43583,
+    "width": 375,
+    "height": 500,
+    "aspect": "0.75"
+  },
+  {
+    "id": "pz-4",
+    "name": "OTC Pizza (Onion Tomato Capsicum)",
+    "category": "PIZZA",
+    "file": "otc_pizza.jpg",
+    "bytes": 883490,
+    "width": 4000,
+    "height": 2666,
+    "aspect": "1.50"
+  },
+  {
+    "id": "pz-5",
+    "name": "Corn Cheese Pizza",
+    "category": "PIZZA",
+    "file": "corn_cheese_pizza.jpg",
+    "bytes": 709918,
+    "width": 1024,
+    "height": 682,
+    "aspect": "1.50"
+  },
+  {
+    "id": "pz-cap",
+    "name": "Capsicum Pizza",
+    "category": "PIZZA",
+    "file": "capsicum_pizza.jpg",
+    "bytes": 36540,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "pz-on",
+    "name": "Onion Pizza",
+    "category": "PIZZA",
+    "file": "onion_pizza.jpg",
+    "bytes": 116834,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "pz-6",
+    "name": "Margherita Pizza",
+    "category": "PIZZA",
+    "file": "margherita_pizza.jpg",
+    "bytes": 483465,
+    "width": 1600,
+    "height": 1200,
+    "aspect": "1.33"
+  },
+  {
+    "id": "bg-1",
+    "name": "Cheese Paneer Burger",
+    "category": "BURGER",
+    "file": "cheese_paneer_burger.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "bg-2",
+    "name": "Double Tikki Burger",
+    "category": "BURGER",
+    "file": "double_tikki_burger.jpg",
+    "bytes": 1485563,
+    "width": 4096,
+    "height": 3186,
+    "aspect": "1.29"
+  },
+  {
+    "id": "bg-3",
+    "name": "Mexican Cheese Burger",
+    "category": "BURGER",
+    "file": "mexican_cheese_burger.jpg",
+    "bytes": 36180,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "bg-4",
+    "name": "Tandoori Cheese Burger",
+    "category": "BURGER",
+    "file": "tandoori_cheese_burger.jpg",
+    "bytes": 78847,
+    "width": 1200,
+    "height": 1200,
+    "aspect": "1.00"
+  },
+  {
+    "id": "bg-cs",
+    "name": "Cheese Slice Burger",
+    "category": "BURGER",
+    "file": "cheese_slice_burger.jpg",
+    "bytes": 220876,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "bg-5",
+    "name": "Paneer Burger",
+    "category": "BURGER",
+    "file": "paneer_burger.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "bg-6",
+    "name": "Veg Tikki Burger",
+    "category": "BURGER",
+    "file": "veg_tikki_burger.jpg",
+    "bytes": 90145,
+    "width": 400,
+    "height": 256,
+    "aspect": "1.56"
+  },
+  {
+    "id": "bg-7",
+    "name": "Aloo Tikki Burger",
+    "category": "BURGER",
+    "file": "aloo_tikki_burger.jpg",
+    "bytes": 204022,
+    "width": 671,
+    "height": 959,
+    "aspect": "0.70"
+  },
+  {
+    "id": "sw-1",
+    "name": "Cheese Brust Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "cheese_burst_sandwich.jpg",
+    "bytes": 160956,
+    "width": 1000,
+    "height": 667,
+    "aspect": "1.50"
+  },
+  {
+    "id": "sw-2",
+    "name": "Paneer Tikka Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "paneer_tikka_sandwich.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "sw-3",
+    "name": "Mexican Cheese Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "mexican_cheese_sandwich.jpg",
+    "bytes": 471907,
+    "width": 1414,
+    "height": 1414,
+    "aspect": "1.00"
+  },
+  {
+    "id": "sw-4",
+    "name": "Corn Cheese Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "corn_cheese_sandwich.jpg",
+    "bytes": 120429,
+    "width": 1657,
+    "height": 990,
+    "aspect": "1.67"
+  },
+  {
+    "id": "sw-cg",
+    "name": "Cheese Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "cheese_grill_sandwich.jpg",
+    "bytes": 309574,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sw-tg",
+    "name": "Tandoori Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "tandoori_grill_sandwich.jpg",
+    "bytes": 24562,
+    "width": 761,
+    "height": 422,
+    "aspect": "1.80"
+  },
+  {
+    "id": "sw-5",
+    "name": "Veg Grill Sandwich",
+    "category": "SANDWICHES",
+    "file": "veg_grill_sandwich.jpg",
+    "bytes": 153152,
+    "width": 1400,
+    "height": 1050,
+    "aspect": "1.33"
+  },
+  {
+    "id": "wr-1",
+    "name": "Tandoori Paneer Wrap",
+    "category": "SANDWICHES",
+    "file": "tandoori_paneer_wrap.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "wr-2",
+    "name": "Corn Cheese Wrap",
+    "category": "SANDWICHES",
+    "file": "corn_cheese_wrap.jpg",
+    "bytes": 1265080,
+    "width": 2000,
+    "height": 4500,
+    "aspect": "0.44"
+  },
+  {
+    "id": "wr-3",
+    "name": "Veggie Delight Wrap",
+    "category": "SANDWICHES",
+    "file": "veggie_delight_wrap.jpg",
+    "bytes": 269679,
+    "width": 2000,
+    "height": 1333,
+    "aspect": "1.50"
+  },
+  {
+    "id": "wr-4",
+    "name": "Aloo Tikki Wrap",
+    "category": "SANDWICHES",
+    "file": "aloo_tikki_wrap.jpg",
+    "bytes": 356897,
+    "width": 1920,
+    "height": 1200,
+    "aspect": "1.60"
+  },
+  {
+    "id": "sh-1",
+    "name": "Tot Special Shake",
+    "category": "SHAKES",
+    "file": "tot_special_shake.jpg",
+    "bytes": 161638,
+    "width": 1500,
+    "height": 1001,
+    "aspect": "1.50"
+  },
+  {
+    "id": "sh-2",
+    "name": "Nutella Chocolate Shake",
+    "category": "SHAKES",
+    "file": "nutella_chocolate_shake.jpg",
+    "bytes": 209868,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sh-3",
+    "name": "Brownie Shake",
+    "category": "SHAKES",
+    "file": "brownie_shake.jpg",
+    "bytes": 545504,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sh-4",
+    "name": "Popcorn Shake",
+    "category": "SHAKES",
+    "file": "popcorn_shake.jpg",
+    "bytes": 159502,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sh-bb",
+    "name": "Blueberry Shake",
+    "category": "SHAKES",
+    "file": "blueberry_shake.jpg",
+    "bytes": 468572,
+    "width": 2576,
+    "height": 1602,
+    "aspect": "1.61"
+  },
+  {
+    "id": "sh-mg",
+    "name": "Mango Shake",
+    "category": "SHAKES",
+    "file": "mango_shake.jpg",
+    "bytes": 92860,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sh-bub",
+    "name": "Bubble Shake",
+    "category": "SHAKES",
+    "file": "bubble_shake.jpg",
+    "bytes": 769978,
+    "width": 4609,
+    "height": 3073,
+    "aspect": "1.50"
+  },
+  {
+    "id": "sh-5",
+    "name": "Kesar Elaichi Shake",
+    "category": "SHAKES",
+    "file": "kesar_elaichi_shake.jpg",
+    "bytes": 61390,
+    "width": 1200,
+    "height": 675,
+    "aspect": "1.78"
+  },
+  {
+    "id": "sh-bs",
+    "name": "Butter Scotch Shake",
+    "category": "SHAKES",
+    "file": "butterscotch_shake.jpg",
+    "bytes": 174728,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sh-6",
+    "name": "Kit Kat Shake",
+    "category": "SHAKES",
+    "file": "kit_kat_shake.jpg",
+    "bytes": 68676,
+    "width": 825,
+    "height": 440,
+    "aspect": "1.88"
+  },
+  {
+    "id": "sh-7",
+    "name": "Oreo Shake",
+    "category": "SHAKES",
+    "file": "oreo_shake.jpg",
+    "bytes": 262071,
+    "width": 1500,
+    "height": 1500,
+    "aspect": "1.00"
+  },
+  {
+    "id": "sh-cs",
+    "name": "Chocolate Shake",
+    "category": "SHAKES",
+    "file": "chocolate_shake.jpg",
+    "bytes": 197998,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "sh-ss",
+    "name": "Strawberry Shake",
+    "category": "SHAKES",
+    "file": "strawberry_shake.jpg",
+    "bytes": 1063730,
+    "width": 2048,
+    "height": 2048,
+    "aspect": "1.00"
+  },
+  {
+    "id": "sh-8",
+    "name": "Paan Shake",
+    "category": "SHAKES",
+    "file": "paan_shake.jpg",
+    "bytes": 376491,
+    "width": 1500,
+    "height": 1500,
+    "aspect": "1.00"
+  },
+  {
+    "id": "sh-vs",
+    "name": "Vanilla Shake",
+    "category": "SHAKES",
+    "file": "vanilla_shake.jpg",
+    "bytes": 1988394,
+    "width": 3200,
+    "height": 1800,
+    "aspect": "1.78"
+  },
+  {
+    "id": "wf-1",
+    "name": "Tot Special Ice Cream Waffle",
+    "category": "DESSERTS",
+    "file": "ice_cream_waffle.jpg",
+    "bytes": 16459,
+    "width": 680,
+    "height": 678,
+    "aspect": "1.00"
+  },
+  {
+    "id": "wf-2",
+    "name": "Brownie Nutella Waffle",
+    "category": "DESSERTS",
+    "file": "brownie_nutella_waffle.jpg",
+    "bytes": 182056,
+    "width": 1200,
+    "height": 1200,
+    "aspect": "1.00"
+  },
+  {
+    "id": "wf-knw",
+    "name": "Kit Kat Nutella Waffle",
+    "category": "DESSERTS",
+    "file": "kitkat_nutella_waffle.jpg",
+    "bytes": 182056,
+    "width": 1200,
+    "height": 1200,
+    "aspect": "1.00"
+  },
+  {
+    "id": "wf-3",
+    "name": "Nutella Waffle",
+    "category": "DESSERTS",
+    "file": "nutella_waffle.jpg",
+    "bytes": 219493,
+    "width": 900,
+    "height": 600,
+    "aspect": "1.50"
+  },
+  {
+    "id": "wf-kw",
+    "name": "Kit Kat Waffle",
+    "category": "DESSERTS",
+    "file": "kitkat_waffle.jpg",
+    "bytes": 182056,
+    "width": 1200,
+    "height": 1200,
+    "aspect": "1.00"
+  },
+  {
+    "id": "wf-ccw",
+    "name": "Choco Chips Waffle",
+    "category": "DESSERTS",
+    "file": "choco_chips_waffle.jpg",
+    "bytes": 28820,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "wf-dcw",
+    "name": "Dark Chocolate Waffle",
+    "category": "DESSERTS",
+    "file": "dark_chocolate_waffle.jpg",
+    "bytes": 147867,
+    "width": 1280,
+    "height": 720,
+    "aspect": "1.78"
+  },
+  {
+    "id": "wf-4",
+    "name": "Nutella Chocolate Brownie",
+    "category": "DESSERTS",
+    "file": "nutella_brownie.jpg",
+    "bytes": 161638,
+    "width": 1500,
+    "height": 1001,
+    "aspect": "1.50"
+  },
+  {
+    "id": "wf-5",
+    "name": "Brownie with Ice Cream",
+    "category": "DESSERTS",
+    "file": "brownie_with_icecream.jpg",
+    "bytes": 45161,
+    "width": 632,
+    "height": 812,
+    "aspect": "0.78"
+  },
+  {
+    "id": "wf-bwc",
+    "name": "Brownie with Chocolate",
+    "category": "DESSERTS",
+    "file": "brownie_with_chocolate.jpg",
+    "bytes": 24039,
+    "width": 500,
+    "height": 250,
+    "aspect": "2.00"
+  },
+  {
+    "id": "wf-6",
+    "name": "Mini Choco Lava Cake",
+    "category": "DESSERTS",
+    "file": "choco_lava_cake.jpg",
+    "bytes": 63146,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "mo-1",
+    "name": "Cheese Corn Momos",
+    "category": "SNACKS",
+    "file": "cheese_corn_momos.jpg",
+    "bytes": 30854,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "mo-2",
+    "name": "Kurkure Fry Momos",
+    "category": "SNACKS",
+    "file": "kurkure_fry_momos.jpg",
+    "bytes": 759624,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "mo-3",
+    "name": "Paneer Momos",
+    "category": "SNACKS",
+    "file": "paneer_momos.jpg",
+    "bytes": 257608,
+    "width": 900,
+    "height": 600,
+    "aspect": "1.50"
+  },
+  {
+    "id": "mo-vf",
+    "name": "Veg Fry Momos",
+    "category": "SNACKS",
+    "file": "veg_fry_momos.jpg",
+    "bytes": 820302,
+    "width": 1920,
+    "height": 1080,
+    "aspect": "1.78"
+  },
+  {
+    "id": "fr-1",
+    "name": "Honey Chilli Potato",
+    "category": "SNACKS",
+    "file": "honey_chilli_potato.jpg",
+    "bytes": 438747,
+    "width": 1200,
+    "height": 675,
+    "aspect": "1.78"
+  },
+  {
+    "id": "fr-cp",
+    "name": "Chilli Potato",
+    "category": "SNACKS",
+    "file": "chilli_potato.jpg",
+    "bytes": 88319,
+    "width": 1024,
+    "height": 578,
+    "aspect": "1.77"
+  },
+  {
+    "id": "fr-2",
+    "name": "Cheese Fries",
+    "category": "SNACKS",
+    "file": "cheese_fries.jpg",
+    "bytes": 49473,
+    "width": 480,
+    "height": 360,
+    "aspect": "1.33"
+  },
+  {
+    "id": "fr-3",
+    "name": "Peri Peri Fries",
+    "category": "SNACKS",
+    "file": "peri_peri_fries.jpg",
+    "bytes": 71410,
+    "width": 750,
+    "height": 445,
+    "aspect": "1.69"
+  },
+  {
+    "id": "fr-4",
+    "name": "Masala Fries",
+    "category": "SNACKS",
+    "file": "masala_fries.jpg",
+    "bytes": 110394,
+    "width": 736,
+    "height": 414,
+    "aspect": "1.78"
+  },
+  {
+    "id": "fr-5",
+    "name": "Salted Fries",
+    "category": "SNACKS",
+    "file": "salted_fries.jpg",
+    "bytes": 247899,
+    "width": 624,
+    "height": 624,
+    "aspect": "1.00"
+  },
+  {
+    "id": "sn-sr",
+    "name": "Spring Roll",
+    "category": "SNACKS",
+    "file": "spring_roll.jpg",
+    "bytes": 895264,
+    "width": 3000,
+    "height": 2749,
+    "aspect": "1.09"
+  },
+  {
+    "id": "pt-1",
+    "name": "Paneer Tikka Patties",
+    "category": "SNACKS",
+    "file": "paneer_tikka_patties.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "pt-2",
+    "name": "Pizza Patties",
+    "category": "SNACKS",
+    "file": "pizza_patties.jpg",
+    "bytes": 2664845,
+    "width": 3264,
+    "height": 2448,
+    "aspect": "1.33"
+  },
+  {
+    "id": "pt-3",
+    "name": "Cheese Patties",
+    "category": "SNACKS",
+    "file": "cheese_patties.jpg",
+    "bytes": 121448,
+    "width": 1470,
+    "height": 980,
+    "aspect": "1.50"
+  },
+  {
+    "id": "pt-tp",
+    "name": "Tandoori Patties",
+    "category": "SNACKS",
+    "file": "tandoori_patties.jpg",
+    "bytes": 191180,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "pt-pp",
+    "name": "Paneer Patties",
+    "category": "SNACKS",
+    "file": "paneer_patties.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "pt-4",
+    "name": "Aloo Patties",
+    "category": "SNACKS",
+    "file": "aloo_patties.jpg",
+    "bytes": 721558,
+    "width": 3840,
+    "height": 2160,
+    "aspect": "1.78"
+  },
+  {
+    "id": "ch-pc",
+    "name": "Peanut Chaat",
+    "category": "SNACKS",
+    "file": "peanut_chaat.jpg",
+    "bytes": 316174,
+    "width": 1499,
+    "height": 1000,
+    "aspect": "1.50"
+  },
+  {
+    "id": "ch-kc",
+    "name": "Kur Kre Chaat",
+    "category": "SNACKS",
+    "file": "kurkure_chaat.jpg",
+    "bytes": 759624,
+    "width": 0,
+    "height": 0,
+    "aspect": "0.00"
+  },
+  {
+    "id": "mg-1",
+    "name": "Veg Corn Cheese Maggi",
+    "category": "MAGGI",
+    "file": "corn_cheese_maggi.jpg",
+    "bytes": 121448,
+    "width": 1470,
+    "height": 980,
+    "aspect": "1.50"
+  },
+  {
+    "id": "mg-2",
+    "name": "Paneer Tikka Maggi",
+    "category": "MAGGI",
+    "file": "paneer_tikka_maggi.jpg",
+    "bytes": 170740,
+    "width": 2121,
+    "height": 1414,
+    "aspect": "1.50"
+  },
+  {
+    "id": "mg-3",
+    "name": "Schezwan Maggi",
+    "category": "MAGGI",
+    "file": "schezwan_maggi.jpg",
+    "bytes": 533580,
+    "width": 1800,
+    "height": 1205,
+    "aspect": "1.49"
+  },
+  {
+    "id": "mg-4",
+    "name": "Punjabi Tadka Maggi",
+    "category": "MAGGI",
+    "file": "punjabi_tadka_maggi.jpg",
+    "bytes": 405665,
+    "width": 1000,
+    "height": 567,
+    "aspect": "1.76"
+  },
+  {
+    "id": "mg-cm",
+    "name": "Cheese Maggi",
+    "category": "MAGGI",
+    "file": "cheese_maggi.jpg",
+    "bytes": 121448,
+    "width": 1470,
+    "height": 980,
+    "aspect": "1.50"
+  },
+  {
+    "id": "mg-5",
+    "name": "Tandoori Maggi",
+    "category": "MAGGI",
+    "file": "tandoori_maggi.jpg",
+    "bytes": 40788,
+    "width": 768,
+    "height": 512,
+    "aspect": "1.50"
+  },
+  {
+    "id": "mg-vmm",
+    "name": "Veg Masala Maggi",
+    "category": "MAGGI",
+    "file": "veg_masala_maggi.jpg",
+    "bytes": 539539,
+    "width": 1600,
+    "height": 1071,
+    "aspect": "1.49"
+  },
+  {
+    "id": "mg-6",
+    "name": "Plain Maggi",
+    "category": "MAGGI",
+    "file": "plain_maggi.jpg",
+    "bytes": 785131,
+    "width": 3840,
+    "height": 2160,
+    "aspect": "1.78"
+  },
+  {
+    "id": "ps-1",
+    "name": "Makhani Pasta",
+    "category": "PASTA",
+    "file": "makhani_pasta.jpg",
+    "bytes": 841968,
+    "width": 1200,
+    "height": 896,
+    "aspect": "1.34"
+  },
+  {
+    "id": "ps-2",
+    "name": "Pink Sauce Pasta",
+    "category": "PASTA",
+    "file": "pink_sauce_pasta.jpg",
+    "bytes": 129450,
+    "width": 960,
+    "height": 640,
+    "aspect": "1.50"
+  },
+  {
+    "id": "ps-3",
+    "name": "White Sauce Pasta",
+    "category": "PASTA",
+    "file": "white_sauce_pasta.jpg",
+    "bytes": 165236,
+    "width": 960,
+    "height": 720,
+    "aspect": "1.33"
+  },
+  {
+    "id": "ps-4",
+    "name": "Red Sauce Pasta",
+    "category": "PASTA",
+    "file": "red_sauce_pasta.jpg",
+    "bytes": 224649,
+    "width": 960,
+    "height": 825,
+    "aspect": "1.16"
+  },
+  {
+    "id": "cb-1",
+    "name": "OTC Pizza + Veg Sandwich + 2 Cold Coffee",
+    "category": "COMBOS",
+    "file": "combo_pizza_sandwich_coffee.jpg",
+    "bytes": 2664845,
+    "width": 3264,
+    "height": 2448,
+    "aspect": "1.33"
+  },
+  {
+    "id": "cb-2",
+    "name": "2 Aloo Tikki Burger + 2 Cold Coffee + Fries",
+    "category": "COMBOS",
+    "file": "combo_burgers_fries_coffee.jpg",
+    "bytes": 204872,
+    "width": 1200,
+    "height": 1200,
+    "aspect": "1.00"
+  },
+  {
+    "id": "cb-3",
+    "name": "Aloo Tikki Burger + Fries + Cold Coffee",
+    "category": "COMBOS",
+    "file": "combo_burger_fries_coffee.jpg",
+    "bytes": 321025,
+    "width": 1280,
+    "height": 924,
+    "aspect": "1.39"
+  }
+]

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Permanent+Marker&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Caveat:wght@700&display=swap');
+
+:root {
+  --color-hero-red: #B33012;
+  --color-cream: #ECE5DE;
+  --color-cream-light: #F4EFEA;
+  --color-gold: #F5A623;
+  --color-gold-hover: #E09419;
+  --color-dark-bg: #171C1F;
+  --color-footer-bg: #1B2024;
+  --color-terracotta: #A8381D;
+  --color-amber: #E59516;
+  --color-pesto: #588B46;
+  --color-dark-brown: #3E2018;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #333333;
+  background-color: var(--color-cream);
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: 'Lilita One', cursive, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.font-script {
+  font-family: 'Permanent Marker', cursive, sans-serif;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+/* Curved smile underline decoration */
+.smile-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.smile-underline::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 8px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 50 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2C16 10 34 10 48 2' stroke='%23F5A623' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center;
+  background-size: contain;
+}
+
+/* Nav smile underline */
+.nav-active-smile {
+  position: relative;
+}
+
+.nav-active-smile::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 6px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 28 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 1.5C9 5.5 19 5.5 26 1.5' stroke='%23F5A623' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center;
+  background-size: contain;
+}
+
+/* Torn paper dividers */
+.torn-divider {
+  width: 100%;
+  height: 38px;
+  background-repeat: repeat-x;
+  background-size: 1200px 38px;
+  pointer-events: none;
+}
+
+/* Steam animation for hot pizza */
+@keyframes steamRise {
+  0% {
+    opacity: 0.1;
+    transform: translateY(0) scaleX(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-12px) scaleX(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-24px) scaleX(1.2);
+  }
+}
+
+.steam-wisp {
+  animation: steamRise 3s infinite ease-in-out;
+}
+
+.steam-wisp:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.steam-wisp:nth-child(3) {
+  animation-delay: 2s;
+}
+
+/* Featured card painted ripped border */
+.featured-brush-card {
+  background-color: #9B2715;
+  position: relative;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px -5px rgba(155, 39, 21, 0.45);
+}
+
+.featured-brush-card::before,
+.featured-brush-card::after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  height: 18px;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+.featured-brush-card::before {
+  top: -14px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 300 20' preserveAspectRatio='none' fill='%239B2715' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,20 L0,12 L8,7 L16,14 L24,5 L32,15 L40,8 L50,16 L62,4 L74,13 L86,6 L98,15 L112,3 L126,14 L140,5 L154,16 L170,4 L186,13 L202,5 L218,15 L234,4 L250,14 L266,6 L282,15 L300,8 L300,20 Z'/%3E%3C/svg%3E");
+}
+
+.featured-brush-card::after {
+  bottom: -14px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 300 20' preserveAspectRatio='none' fill='%239B2715' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,0 L0,8 L8,13 L16,6 L24,15 L32,5 L40,12 L50,4 L62,16 L74,7 L86,14 L98,5 L112,17 L126,6 L140,15 L154,4 L170,16 L186,7 L202,15 L218,5 L234,16 L250,6 L266,14 L282,5 L300,12 L300,0 Z'/%3E%3C/svg%3E");
+}
+
+/* Floating animation */
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: floatGentle 4s ease-in-out infinite;
+}
+
+/* Splatter texture overlay */
+.bg-splatter {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px),
+                    radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede8;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4c8bd;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5a494;
+}
+
+/* Toast container */
+#toast {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}

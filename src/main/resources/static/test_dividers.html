@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divider Preview Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        .test-sec {
+            position: relative;
+            padding: 80px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-[#ECE5DE] m-0 p-0 overflow-x-hidden">
+
+    <!-- GLOBAL SVG FILTERS -->
+    <svg class="sr-only" aria-hidden="true" width="0" height="0">
+        <defs>
+            <!-- 1. Torn Paper Fiber Filter -->
+            <filter id="torn-paper-roughness" x="-2%" y="-10%" width="104%" height="120%" filterUnits="objectBoundingBox">
+                <feTurbulence type="fractalNoise" baseFrequency="0.035 0.07" numOctaves="4" result="noise" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+            </filter>
+
+            <!-- 2. Heavy Dry-Brush Bristle Filter -->
+            <filter id="brush-stroke-roughness" x="-2%" y="-15%" width="104%" height="130%" filterUnits="objectBoundingBox">
+                <feTurbulence type="fractalNoise" baseFrequency="0.05 0.12" numOctaves="4" result="noise" />
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- SECTION 1: HERO (Red) -->
+    <div class="test-sec bg-[#B33012] text-white h-72">
+        HERO SECTION (Red #B33012)
+        <!-- Torn paper bottom edge to cream -->
+        <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none z-20">
+            <svg viewBox="0 0 1200 65" preserveAspectRatio="none" class="relative block w-full h-14 sm:h-20 lg:h-24 text-[#ECE5DE] fill-current" filter="url(#torn-paper-roughness)">
+                <path d="M0,65 L0,28 Q30,22 65,27 T135,24 T210,28 T280,22 T360,26 T435,21 T510,29 T585,22 T665,28 T740,23 T820,29 T900,24 T975,27 T1050,22 T1125,27 T1200,24 L1200,65 Z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- SECTION 2: DAILY ZONE MENU (Cream) -->
+    <div class="test-sec bg-[#ECE5DE] text-[#52251B] h-72">
+        DAILY ZONE MENU (Cream #ECE5DE)
+        <!-- Painted brush transition to white -->
+        <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none z-20">
+            <!-- Secondary dry brush layer (semi-transparent) -->
+            <svg viewBox="0 0 1200 60" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-12 sm:h-16 lg:h-20 text-white/50 fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,60 L0,32 Q40,18 90,26 T180,18 T270,30 T360,19 T460,33 T550,22 T650,30 T750,18 T850,28 T950,20 T1060,30 T1150,22 T1200,28 L1200,60 Z"></path>
+            </svg>
+            <!-- Primary white brush stroke -->
+            <svg viewBox="0 0 1200 60" preserveAspectRatio="none" class="relative block w-full h-12 sm:h-16 lg:h-20 text-white fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,60 L0,40 Q40,24 85,32 T175,25 T265,37 T355,27 T450,39 T545,28 T640,36 T740,25 T835,35 T940,28 T1045,36 T1140,28 T1200,35 L1200,60 Z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- SECTION 3: BEST SELLERS (White) -->
+    <div class="test-sec bg-white text-[#52251B] h-72">
+        OUR BEST SELLER ITEMS (White)
+    </div>
+
+    <!-- SECTION 4: GUARANTEE (Dark Charcoal) -->
+    <div class="test-sec bg-[#171C1F] text-white h-72">
+        <!-- Top Grunge Brush Stroke tearing into white -->
+        <div class="absolute top-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none z-20">
+            <!-- Splatters & Paint Flecks -->
+            <svg viewBox="0 0 1200 70" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-16 sm:h-22 lg:h-28 text-[#171C1F] fill-current">
+                <!-- Paint splatter circles -->
+                <circle cx="85" cy="14" r="3" />
+                <circle cx="95" cy="8" r="1.5" />
+                <circle cx="210" cy="12" r="2.5" />
+                <circle cx="340" cy="10" r="3" />
+                <circle cx="355" cy="6" r="1.5" />
+                <circle cx="490" cy="15" r="2" />
+                <circle cx="620" cy="9" r="3.5" />
+                <circle cx="780" cy="11" r="2" />
+                <circle cx="910" cy="7" r="3" />
+                <circle cx="1040" cy="13" r="2.5" />
+                <circle cx="1120" cy="9" r="1.8" />
+            </svg>
+            <!-- Secondary dry brush bristle layer -->
+            <svg viewBox="0 0 1200 70" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-16 sm:h-22 lg:h-28 text-[#171C1F]/60 fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,0 L0,32 Q45,46 95,35 T190,48 T285,34 T380,50 T480,36 T580,48 T675,33 T775,49 T870,36 T965,51 T1060,38 T1155,48 T1200,35 L1200,0 Z"></path>
+            </svg>
+            <!-- Primary dark brush stroke -->
+            <svg viewBox="0 0 1200 70" preserveAspectRatio="none" class="relative block w-full h-16 sm:h-22 lg:h-28 text-[#171C1F] fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,0 L0,42 Q45,56 95,45 T190,58 T285,44 T380,60 T480,46 T580,58 T675,43 T775,59 T870,46 T965,61 T1060,48 T1155,58 T1200,45 L1200,0 Z"></path>
+            </svg>
+        </div>
+
+        GUARANTEE SECTION (Dark #171C1F)
+
+        <!-- Bottom Grunge Brush Stroke tearing into cream -->
+        <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none z-20">
+            <svg viewBox="0 0 1200 65" preserveAspectRatio="none" class="relative block w-full h-14 sm:h-20 lg:h-24 text-[#ECE5DE] fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,65 L0,22 Q40,34 90,20 T180,36 T270,18 T365,34 T460,20 T555,36 T650,22 T745,35 T840,18 T935,34 T1030,21 T1125,35 T1200,22 L1200,65 Z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <!-- SECTION 5: TESTIMONIALS & SUBSCRIBE (Cream) -->
+    <div class="test-sec bg-[#ECE5DE] text-[#52251B] h-72">
+        USERS TESTIMONIALS & SUBSCRIBE (Cream #ECE5DE)
+    </div>
+
+    <!-- SECTION 6: FOOTER (Dark) -->
+    <div class="test-sec bg-[#1B2024] text-white h-72">
+        <!-- Top Grunge Brush Stroke tearing into cream -->
+        <div class="absolute top-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none z-20">
+            <!-- Splatters & Paint Flecks -->
+            <svg viewBox="0 0 1200 70" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-16 sm:h-22 lg:h-28 text-[#1B2024] fill-current">
+                <circle cx="110" cy="12" r="2.5" />
+                <circle cx="120" cy="7" r="1.8" />
+                <circle cx="250" cy="10" r="3" />
+                <circle cx="430" cy="8" r="2" />
+                <circle cx="560" cy="14" r="3.2" />
+                <circle cx="710" cy="9" r="2" />
+                <circle cx="860" cy="12" r="2.8" />
+                <circle cx="990" cy="7" r="3.5" />
+                <circle cx="1130" cy="10" r="2.2" />
+            </svg>
+            <!-- Secondary dry brush bristle layer -->
+            <svg viewBox="0 0 1200 70" preserveAspectRatio="none" class="absolute top-0 left-0 w-full h-16 sm:h-22 lg:h-28 text-[#1B2024]/60 fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,0 L0,30 Q40,48 90,32 T180,46 T270,30 T365,49 T460,33 T555,47 T650,30 T745,49 T840,32 T935,48 T1030,34 T1125,49 T1200,32 L1200,0 Z"></path>
+            </svg>
+            <!-- Primary dark brush stroke -->
+            <svg viewBox="0 0 1200 70" preserveAspectRatio="none" class="relative block w-full h-16 sm:h-22 lg:h-28 text-[#1B2024] fill-current" filter="url(#brush-stroke-roughness)">
+                <path d="M0,0 L0,40 Q40,58 90,42 T180,56 T270,40 T365,59 T460,43 T555,57 T650,40 T745,59 T840,42 T935,58 T1030,44 T1125,59 T1200,42 L1200,0 Z"></path>
+            </svg>
+        </div>
+
+        FOOTER SECTION (Dark #1B2024)
+    </div>
+
+</body>
+</html>
