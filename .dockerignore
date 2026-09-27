@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Maven build artifacts
+target/
+
+# IDE and Editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.apt_generated
+
+# Logs
+*.log
+
+# Root-level local scripts, documentation and one-off assets
+/*.js
+/*.json
+/*.png
+/*.jpg
+/*.md
+
+# Explicitly ensure source code is always included
+!src/
